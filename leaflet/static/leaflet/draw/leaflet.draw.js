@@ -1104,6 +1104,7 @@
     }), L.DrawToolbar = L.Toolbar.extend({
         statics: {TYPE: "draw"},
         options: {
+            circlemarker: false,
             polyline: {},
             polygon: {},
             rectangle: {},
